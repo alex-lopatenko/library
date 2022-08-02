@@ -5,7 +5,7 @@
 </div>
 </template>
 <style>
-.page__inner {
+/* .page__inner {
     margin: auto;
     text-align: center;
 }
@@ -16,5 +16,5 @@
 
 .page__subtitle {
     font-size: 40px;
-}
+} */
 </style>

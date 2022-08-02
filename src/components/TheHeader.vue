@@ -1,19 +1,19 @@
 <template>
-  <header class="header">
+  <header class="navbar">
     <div class="container">
-        <div class="navbar__content">
-            <ul class="navbar__list">
-                <li class="navbar__item">
-                    <a href="#" class="navbar__link">Магазин</a>
+        <div class="navbar-content">
+            <ul class="navbar-list">
+                <li class="navbar-item">
+                    <a href="#" class="navbar-link">Магазин</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="#" class="navbar__link">Библиотека</a>
+                    <a href="#" class="navbar-link">Библиотека</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="#" class="navbar__link">Сообщество</a>
+                    <a href="#" class="navbar-link">Сообщество</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="#" class="navbar__link">USER</a>
+                    <a href="#" class="navbar-link">USER</a>
                 </li>
             </ul>
         </div>
@@ -26,14 +26,3 @@ export default {
 
 }
 </script>
-
-<style>
-.navbar__list {
-    display: flex;
-    list-style: none;
-}
-
-.navbar__item{
-    margin-left: 100px;
-}
-</style>
