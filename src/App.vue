@@ -3,7 +3,7 @@
   <TheHeader />
   <div class="wrapper-content">
     <div class="container">
-      Тут будет какой-то контент
+      <router-view />
     </div>
   </div>
   <TheFooter />

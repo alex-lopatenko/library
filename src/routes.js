@@ -1,23 +1,41 @@
-import {createRouter, createWebHistory, createWebHashHistory} from 'vue-router'
+import {createRouter, createWebHashHistory} from 'vue-router'
 
 const routerHistory = createWebHashHistory()
 
-import HomePage from '@/pages/home'
-import AboutPage from '@/pages/about'
-import NotFoundPage from '@/pages/notFound'
+import HomePage from '@/pages/homePage'
+import ShopPage from '@/pages/shopPage'
+import LibraryPage from '@/pages/libraryPage'
+import CommunityPage from '@/pages/communityPage'
+import UserPage from '@/pages/userPage'
+import NotFoundPage from '@/pages/notFoundPage'
 
 const routers = createRouter({
   history: routerHistory,
   routes: [
     {
       path: '/',
-      name: 'home',
+      name: 'homePage',
       component: HomePage,
     },
     {
-      path: '/about',
-      name: 'about',
-      component: AboutPage,
+      path: '/shop',
+      name: 'shop',
+      component: ShopPage,
+    },
+    {
+      path: '/library',
+      name: 'library',
+      component: LibraryPage,
+    },
+    {
+      path: '/community',
+      name: 'community',
+      component: CommunityPage,
+    },
+    {
+      path: '/user',
+      name: 'user',
+      component: UserPage,
     },
     {
       path: '/:CathAll(.*)',

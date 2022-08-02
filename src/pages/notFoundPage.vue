@@ -5,16 +5,19 @@
 </div>
 </template>
 <style>
-/* .page__inner {
-    margin: auto;
+.page__inner {
+    margin: 0 auto;
     text-align: center;
+    margin-top: 100px;
 }
 
 .page__title {
     font-size: 50px;
+    display: block;
 }
 
 .page__subtitle {
     font-size: 40px;
-} */
+    display: block;
+}
 </style>
