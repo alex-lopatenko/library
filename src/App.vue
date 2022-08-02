@@ -3,20 +3,20 @@
   <TheHeader />
   <div class="wrapper-content">
     <div class="container">
-      Тут будет какой-то контент <br>
-      <NotFound />
+      Тут будет какой-то контент
     </div>
   </div>
+  <TheFooter />
 </div>
 </template>
 
 <script>
 import TheHeader from "./components/TheHeader.vue";
-import notFound from "./pages/notFound.vue"
+import TheFooter from "./components/TheFooter.vue";
 export default {
   components: {
     TheHeader,
-    notFound
+    TheFooter
   }
 }
 </script>
