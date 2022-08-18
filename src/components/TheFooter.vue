@@ -16,9 +16,10 @@ export default {
 
 <style>
 .footer-text {
-  border-bottom: 1px solid #000;
-  border-top: 1px solid #000;
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #fff;
   margin: 0 auto;
   padding: 30px 0;
+  color: #fff;
 }
 </style>

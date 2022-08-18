@@ -89,10 +89,20 @@
 
 .home__navbar-title {
   margin-top: 30px;
+  color: #c6d4df;
+  font-size: 11px;
+  text-transform: uppercase;
 }
 
+.home__navbar-link {
+  font-size: 13px;
+  color: #66c0f4;
+  padding: 0;
+}
+
+
 .home__navbar-item {
-  margin-top: 5px;
+  /* margin-top: 0px; */
 }
 
 .home__content {
@@ -110,6 +120,5 @@
 .home__card-title {
   font-size: 16px;
   min-height: 58px;
-  padding: 10px 10px;
 }
 </style>

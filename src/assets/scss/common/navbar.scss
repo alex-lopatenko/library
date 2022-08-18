@@ -5,8 +5,8 @@
   right: 0;
   z-index: 99;
   padding: 20px 0;
-  background-color: $g-0;
-  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  background-color: #171a21;
+  // box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-content {
@@ -16,7 +16,7 @@
 }
 
 .navbar-logo {
-  color: $g-999;
+  color: #fff;
   font-weight: 700;
 }
 
@@ -37,11 +37,11 @@
 .navbar-link {
   display: block;
   transition: all 0.2s ease;
-  color: $purple-color-100;
+  color: #c4cbd8;
   // active link
   &.isActive,
   &.router-link-active,
   &.router-link-exact-active {
-    text-decoration: underline;
+    color: #fefefe;
   }
 }
