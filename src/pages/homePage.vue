@@ -120,5 +120,14 @@
 .home__card-title {
   font-size: 16px;
   min-height: 58px;
+  margin-top: 10px;
+}
+
+.home__card-price {
+  margin-top: 10px;
+}
+
+.home__card-btn {
+  margin-top: 30px;
 }
 </style>
