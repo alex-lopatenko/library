@@ -41,93 +41,57 @@
       <div class="home__card">
         <img src="../assets/images/03.jpg" alt="">
         <div class="home__card-title">
-          Какое-то название
+          {{title}}
         </div>
         <div class="home__card-author">
-          Автор
+          {{author}}
         </div>
         <div class="home__card-price">
-          750
+          {{price}}
         </div>
         <button class="home__card-btn">Купить</button>
+        <button class="home__card-btn">Подарить</button>
       </div>
       <div class="home__card">
         <img src="../assets/images/01.jpg" alt="">
         <div class="home__card-title">
-          Какое-то название
+          {{title}}
         </div>
         <div class="home__card-author">
-          Автор
+          {{author}}
         </div>
         <div class="home__card-price">
-          900
+          {{price}}
         </div>
         <button class="home__card-btn">Купить</button>
+        <button class="home__card-btn">Подарить</button>
       </div>
       <div class="home__card">
         <img src="../assets/images/02.jpg" alt="">
         <div class="home__card-title">
-          Какое-то название
+          {{title}}
         </div>
         <div class="home__card-author">
-          Автор
+          {{author}}
         </div>
         <div class="home__card-price">
-          1200
+          {{price}}
         </div>
         <button class="home__card-btn">Купить</button>
+        <button class="home__card-btn">Подарить</button>
       </div>
     </div>
   </div>
 </template>
 
-<style>
-.home__wrapper {
-  display: flex;
-  justify-content: space-between;
-}
-
-.home__navbar-title {
-  margin-top: 30px;
-  color: #c6d4df;
-  font-size: 11px;
-  text-transform: uppercase;
-}
-
-.home__navbar-link {
-  font-size: 13px;
-  color: #66c0f4;
-  padding: 0;
-}
-
-
-.home__navbar-item {
-  /* margin-top: 0px; */
-}
-
-.home__content {
-  display: flex;
-  gap: 50px;
-  margin: 0 auto;
-}
-
-.home__card {
-  border: 1px solid #000;
-  min-height: 410px;
-  text-align: center;
-}
-
-.home__card-title {
-  font-size: 16px;
-  min-height: 58px;
-  margin-top: 10px;
-}
-
-.home__card-price {
-  margin-top: 10px;
-}
-
-.home__card-btn {
-  margin-top: 30px;
-}
-</style>
+<script>
+ export default {
+  data () {
+    return {
+      title: 'Название книги',
+      author: 'Автор книги',
+      price: '500 ₽'
+    }
+  }
+ }
+</script>
