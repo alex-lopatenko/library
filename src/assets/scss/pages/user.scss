@@ -1,0 +1,31 @@
+.container-user {
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+    background-color: rgb(119, 40, 10,);
+}
+
+.header-user {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.header-user-img {
+    max-width: 164px;
+}
+
+.header-user-person {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.user-person-name-inner {
+    display: block;
+}
+
+.user-person-nickname {
+    font-size: 24px;
+    line-height: 40px;
+}
