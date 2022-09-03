@@ -12,15 +12,15 @@ export const process = {
 
   export const links = [
     {
-      title: 'Главная',
+      title: 'Магазин',
       alias: 'home',
       url: '/'
     },
-    {
-      title: 'Магазин',
-      alias: 'shop',
-      url: '/shop'
-    },
+    // {
+    //   title: 'Магазин',
+    //   alias: 'shop',
+    //   url: '/shop'
+    // },
     {
       title: 'Библиотека',
       alias: 'library',

@@ -9,9 +9,12 @@ import CommunityPage from '@/pages/communityPage'
 import UserPage from '@/pages/userPage'
 import NotFoundPage from '@/pages/notFoundPage'
 
+import editPage from '@/pages/editPage'
+
 const routers = createRouter({
   history: routerHistory,
   routes: [
+    // menu link
     {
       path: '/',
       name: 'homePage',
@@ -41,7 +44,17 @@ const routers = createRouter({
       path: '/:CathAll(.*)',
       name: '404',
       component: NotFoundPage,
-    }
+    },
+
+    // shop link
+
+
+    // other link
+    {
+      path: '/edit',
+      name: 'edit',
+      component: editPage,
+    },
   ]
 })
 
