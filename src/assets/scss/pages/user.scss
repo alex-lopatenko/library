@@ -2,13 +2,16 @@
     max-width: 1220px;
     padding: 0 10px;
     margin: 0 auto;
-    background-color: rgb(119, 40, 10,);
+    // background-color: rgb(119, 40, 10,);
+    background-color: rgba(119, 40, 10, .8);
+    box-shadow: -48px 57px 35px 0px rgba(119, 40, 10, 0.52);
 }
 
 .header-user {
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .header-user-img {
@@ -28,4 +31,28 @@
 .user-person-nickname {
     font-size: 24px;
     line-height: 40px;
+}
+
+.header-user-badgeinfo {
+    &-level {
+        display: flex;
+        font-size: 36px;
+        line-height: 40px;
+        align-items: center;
+        text-align: center;
+    }
+    &-level-numb {
+        margin-left: 10px;
+        width: 32px;
+        height: 32px;
+    }
+    &-edit {
+        margin-top: 50px;
+    }
+    &-edit-link {
+        font-size: 16px;
+        color: #fff;
+        background-color: #a9451efd;
+        padding: 10px;
+    }
 }

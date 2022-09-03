@@ -9,7 +9,8 @@ import CommunityPage from '@/pages/communityPage'
 import UserPage from '@/pages/userPage'
 import NotFoundPage from '@/pages/notFoundPage'
 
-import editPage from '@/pages/editPage'
+import EditPage from '@/pages/editPage'
+import BookPage from '@/pages/bookPage'
 
 const routers = createRouter({
   history: routerHistory,
@@ -47,13 +48,17 @@ const routers = createRouter({
     },
 
     // shop link
-
+    {
+      path: '/book',
+      name: 'book',
+      component: BookPage,
+    },
 
     // other link
     {
       path: '/edit',
       name: 'edit',
-      component: editPage,
+      component: EditPage,
     },
   ]
 })
